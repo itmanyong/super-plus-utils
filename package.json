@@ -1,33 +1,33 @@
 {
-  "name": "super-utils",
+  "name": "super-plus-utils",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.12.0",
   "description": "开发中常用的业务型工具函数",
   "author": "Itmanyong <itmanyong@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/itmanyong/super-utils#readme",
+  "homepage": "https://github.com/itmanyong/super-plus-utils#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itmanyong/super-utils#readme.git"
+    "url": "git+https://github.com/itmanyong/super-plus-utils#readme.git"
   },
   "bugs": {
-    "url": "https://github.com/itmanyong/super-utils#readme/issues"
+    "url": "https://github.com/itmanyong/super-plus-utils#readme/issues"
   },
   "keywords": [
     "itmanyong",
     "utils",
-    "super-utils"
+    "super-plus-utils"
   ],
   "sideEffects": false,
   "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     "./*": "./*",
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },

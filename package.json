@@ -1,0 +1,50 @@
+{
+  "name": "super-utils",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.12.0",
+  "description": "开发中常用的业务型工具函数",
+  "author": "Itmanyong <itmanyong@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/itmanyong/super-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itmanyong/super-utils#readme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itmanyong/super-utils#readme/issues"
+  },
+  "keywords": [
+    "itmanyong",
+    "utils",
+    "super-utils"
+  ],
+  "sideEffects": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "peerDependencies": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.4.3",
+    "tsup": "7.2.0",
+    "typescript": "^5.3.3"
+  }
+}
